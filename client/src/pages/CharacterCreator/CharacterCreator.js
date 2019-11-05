@@ -8,16 +8,16 @@ class CharacterCreator extends Component {
 		race: "",
 		subRace: "",
 		class: "",
-		hitPoints: "",
+		hitPoints: 0,
 		proficiencies: "",
 		alignment: "",
 		lifestyle: "",
 		hair: "",
 		skin: "",
 		eyes: "",
-		height: "",
-		weight: "",
-		age: "",
+		height: 0,
+		weight: 0,
+		age: 0,
 		gender: "",
 		personalityTraits: "",
 		ideals: "",
@@ -28,7 +28,9 @@ class CharacterCreator extends Component {
 
 	render () {
 		return (
-			<div><p>Character Creator</p></div>
+			<div>
+				
+			</div>
 		);
 	}
 }
